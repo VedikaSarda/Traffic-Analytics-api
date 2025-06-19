@@ -12,8 +12,7 @@ router.get('/devices', analytics.getDevices);
 router.get('/geo', analytics.getGeo);
 module.exports = router;
 
-// File: middleware/rateLimiter.js
-//const rateLimit = require("express-rate-limit");
+
 // console.log('auth is:', typeof auth); // should be 'function'
 // console.log('analytics.getSummary is:', typeof analytics.getSummary); // should be 'function'
 // console.log('analytics.getPages is:', typeof analytics.getPages); // should be 'function'
