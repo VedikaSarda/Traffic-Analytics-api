@@ -22,12 +22,12 @@ A Node.js REST API that tracks website traffic, logs detailed visitor data, and 
 ```bash
 git clone https://github.com/your-username/traffic-analytics-api.git
 cd traffic-analytics-api
-2. Install dependencies
 
+2. Install dependencies
 npm install
+
 3. Configure environment variables
 Create a .env file in the root:
-
 env
 
 PORT=5000
@@ -38,6 +38,7 @@ JWT_SECRET=yourSuperSecretKey
 
 4. Seed mock data (optional)
 npm run seed
+
 5. Start the server
 npm start
 
